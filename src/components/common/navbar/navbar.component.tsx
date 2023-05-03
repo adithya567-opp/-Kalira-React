@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom"
 import { NavbarContainer } from "./navbar.styles"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBars, faUser, faShoppingCart } from "@fortawesome/free-solid-svg-icons"
 
 export const Navbar = () => {
   return (
@@ -15,10 +17,10 @@ export const Navbar = () => {
         </div>
 
         <div className="right">
-          <div>
-            {/* icon */}
-            <Link to="/some">Profile</Link>
-            <Link to="/some">Cart</Link>
+          <div className="icon-wrapper">
+            <FontAwesomeIcon icon={faUser} className="nav-icon" />
+            <FontAwesomeIcon icon={faShoppingCart} className="nav-icon" />
+            <FontAwesomeIcon icon={faBars} className="nav-icon hamburger" />
           </div>
         </div>
       </div>

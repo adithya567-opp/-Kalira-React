@@ -22,7 +22,49 @@ export const NavbarContainer = styled.div`
     .left {
       display: flex;
       align-items: center;
+    }
+  }
+
+  .right {
+    .nav-icon {
+      font-size: 18px;
+    }
+
+    .icon-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+  }
+  .hamburger {
+    display: none;
+  }
+
+  @media (max-width: 59em) {
+    padding: 0 1.2rem;
+    .navigation {
+      justify-content: space-between;
+      width: 100%;
       nav {
+        display: none;
+      }
+    }
+  }
+
+  @media (max-width: 34em) {
+    .navigation {
+      justify-content: space-between;
+      width: 100%;
+      nav {
+        display: none;
+      }
+
+      .left {
+        margin-bottom: 1rem;
+      }
+
+      .hamburger {
+        display: block;
       }
     }
   }

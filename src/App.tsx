@@ -8,9 +8,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <Container>
+      {/* <Container>
         <Outlet />
-      </Container>
+      </Container> */}
     </>
   )
 }
