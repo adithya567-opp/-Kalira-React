@@ -36,5 +36,5 @@ Users can start from the Home page which displays the product listing. They can 
 To run this project on your local machine, follow these steps:
 
 - Clone the repository
-- Install the dependencies using `bash npm install`
-- Start the development server using `bash npm start`
+- Install the dependencies using ```bash npm install```
+- Start the development server using ```bash npm start```
