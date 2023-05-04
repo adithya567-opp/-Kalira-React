@@ -50,9 +50,16 @@ export const ProductsPageContainer = styled.div`
   }
 
   @media (max-width: 48em) {
+    .top-filter {
+      margin: 2rem 2rem;
+    }
+
     .main-container {
       flex-direction: column;
       gap: 2rem;
+      .sidebar-filter {
+        display: none;
+      }
       .products {
         grid-template-columns: repeat(4, 1fr);
       }
@@ -63,6 +70,10 @@ export const ProductsPageContainer = styled.div`
     .main-container {
       flex-direction: column;
       gap: 2rem;
+
+      .sidebar-filter {
+        display: none;
+      }
       .products {
         grid-template-columns: repeat(2, 1fr);
       }

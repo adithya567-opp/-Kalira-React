@@ -12,7 +12,9 @@ export const ProductsPage = () => {
         </h2>
       </div>
       <div className="main-container">
-        <SideBarFilter />
+        <div className="sidebar-filter">
+          <SideBarFilter />
+        </div>
         <main className="products">
           {collections.map((item) => (
             <ProductCard item={item} key={item.id} />
