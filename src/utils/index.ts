@@ -8,3 +8,5 @@ export * from "./console"
 export * from "./snackbar-utils"
 export * from "./utils"
 export * from "./validators"
+
+export * from "./product"

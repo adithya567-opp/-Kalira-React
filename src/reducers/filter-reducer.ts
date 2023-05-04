@@ -7,55 +7,64 @@ export const filterReducer = (state: any, action: any) => {
     case "HIGH_TO_LOW":
       return { ...state, sortBy: "HIGH_TO_LOW" }
 
-    case "RATING":
-      return { ...state, sortBy: "RATING" }
+    case "RATING_LOW_TO_HIGH":
+      return { ...state, sortByRating: "LOW_TO_HIGH" }
 
-    case "WOMENS":
-      return {
-        ...state,
-        category: { ...state.category, womens: !state.category.womens },
-      }
-    case "MENS":
-      return {
-        ...state,
-        category: { ...state.category, mens: !state.category.mens },
-      }
+    case "RATING_HIGH_TO_LOW":
+      return { ...state, sortByRating: "HIGH_TO_LOW" }
 
-    case "SHOES":
+    case "Saree Shop":
       return {
         ...state,
-        category: { ...state.category, shoes: !state.category.shoes },
+        suppliers: { ...state.suppliers, sareeShop: !state.suppliers.sareeShop },
+      }
+    case "Vastrananda":
+      return {
+        ...state,
+        suppliers: { ...state.suppliers, vastrananda: !state.suppliers.vastrananda },
       }
 
-    case "JACKETS":
+    case "Sainoor":
       return {
         ...state,
-        category: { ...state.category, jackets: !state.category.jackets },
+        suppliers: { ...state.suppliers, sainoor: !state.suppliers.sainoor },
+      }
+
+    case "sareemall":
+      return {
+        ...state,
+        suppliers: { ...state.suppliers, sareemall: !state.suppliers.sareemall },
+      }
+
+    case "textileCatalog":
+      return {
+        ...state,
+        suppliers: { ...state.suppliers, textileCatalog: !state.suppliers.textileCatalog },
+      }
+
+    case "Grubstakar":
+      return {
+        ...state,
+        suppliers: { ...state.suppliers, Grubstakar: !state.suppliers.Grubstakar },
+      }
+
+    case "Misri Fashion":
+      return {
+        ...state,
+        suppliers: { ...state.suppliers, misriFashion: !state.suppliers.misriFashion },
       }
 
     // new arrival
 
-    case "NEW_ARRIVAL":
-      return {
-        ...state,
-        category: { ...state, newArrival: !state.newArrival },
-      }
-
-    case "PRICE":
-      return {
-        ...state,
-        price: action.priceValue,
-      }
-
-    case "CLEAR":
-      return {
-        sortBy: "",
-        category: { mens: false, womens: false, shoes: false, jackets: false },
-        isTrending: "",
-        price: 10000,
-        rating: "",
-        newArrival: "",
-      }
+    // case "CLEAR":
+    //   return {
+    //     sortBy: "",
+    //     suppliers: { mens: false, womens: false, shoes: false, jackets: false },
+    //     isTrending: "",
+    //     price: 10000,
+    //     rating: "",
+    //     newArrival: "",
+    //   }
 
     default:
       return state

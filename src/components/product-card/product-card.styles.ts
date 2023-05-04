@@ -33,6 +33,10 @@ export const ProductCardContainer = styled.div`
     font-weight: 400;
   }
 
+  .rating {
+    margin-left: 1rem;
+  }
+
   .btn-container {
     display: flex;
     gap: 0.6rem;

@@ -15,10 +15,10 @@ const ProductsProvider = ({ children }) => {
     const products = collections
     setProducs(products)
 
-    const suppliers = collections.map((item) => item.supplierName)
+    const suppliers = Array.from(new Set(collections.flatMap((item) => item.supplierName)))
     setSuppliers(suppliers)
 
-    const fabric = collections.map((item) => item.sareeFabric)
+    const fabric = Array.from(new Set(collections.flatMap((item) => item.sareeFabric)))
     setFabric(fabric)
   }
 

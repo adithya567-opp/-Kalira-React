@@ -31,6 +31,8 @@ export const collections = [
         xsImage: "https://d2mg89328eg065.cloudfront.net/optimized_media/300/xs_1A3198H.webp",
       },
     },
+
+    rating: 4.5,
   },
   {
     id: 221,
@@ -64,6 +66,8 @@ export const collections = [
         xsImage: "https://d2mg89328eg065.cloudfront.net/optimized_media/1031/1680507355_xs_A3157H.webp",
       },
     },
+
+    rating: 4,
   },
   {
     id: 33,
@@ -97,6 +101,7 @@ export const collections = [
         xsImage: "https://d2mg89328eg065.cloudfront.net/optimized_media/26/xs_1A3305-H.webp",
       },
     },
+    rating: 3,
   },
   {
     id: 36,
@@ -130,6 +135,7 @@ export const collections = [
         xsImage: "https://d2mg89328eg065.cloudfront.net/optimized_media/28/xs_A3287-H.webp",
       },
     },
+    rating: 4,
   },
   {
     id: 46,
@@ -163,6 +169,7 @@ export const collections = [
         xsImage: "https://d2mg89328eg065.cloudfront.net/optimized_media/38/xs_1A3217-H.webp",
       },
     },
+    rating: 1,
   },
   {
     id: 307,
@@ -196,6 +203,7 @@ export const collections = [
         xsImage: "https://d2mg89328eg065.cloudfront.net/optimized_media/536/1679653078_xs_1A2524HN.webp",
       },
     },
+    rating: 4,
   },
   {
     id: 309,
@@ -229,6 +237,7 @@ export const collections = [
         xsImage: "https://d2mg89328eg065.cloudfront.net/optimized_media/538/1679653872_xs_1A2804HN.webp",
       },
     },
+    rating: 5,
   },
   {
     id: 311,
@@ -262,6 +271,7 @@ export const collections = [
         xsImage: "https://d2mg89328eg065.cloudfront.net/optimized_media/540/1679654465_xs_1A2827HN.webp",
       },
     },
+    rating: 4.8,
   },
   {
     id: 43,
@@ -295,6 +305,7 @@ export const collections = [
         xsImage: "https://d2mg89328eg065.cloudfront.net/optimized_media/35/xs_1A3629-H.webp",
       },
     },
+    rating: 3,
   },
   {
     id: 44,
@@ -328,6 +339,7 @@ export const collections = [
         xsImage: "https://d2mg89328eg065.cloudfront.net/optimized_media/37/xs_A3627-H.webp",
       },
     },
+    rating: 4,
   },
   {
     id: 308,
@@ -361,6 +373,7 @@ export const collections = [
         xsImage: "https://d2mg89328eg065.cloudfront.net/optimized_media/537/1679653397_xs_1A2716HN.webp",
       },
     },
+    rating: 5,
   },
   {
     id: 190,
@@ -394,6 +407,7 @@ export const collections = [
         xsImage: "https://d2mg89328eg065.cloudfront.net/optimized_media/320/xs_1A3122H.webp",
       },
     },
+    rating: 2,
   },
   {
     id: 428,
@@ -427,6 +441,7 @@ export const collections = [
         xsImage: "https://d2mg89328eg065.cloudfront.net/optimized_media/764/1679920085_xs_1A3212H.webp",
       },
     },
+    rating: 3.6,
   },
   {
     id: 48,
@@ -460,40 +475,9 @@ export const collections = [
         xsImage: "https://d2mg89328eg065.cloudfront.net/optimized_media/40/xs_1A3717-H.webp",
       },
     },
+    rating: 5,
   },
-  // {
-  //     "id": 120,
-  //     "slug": "saree-aqua-blue-floral-print-poly-georgette-a6117-buy-120",
-  //     "code": "A6117-blue-Free_Size",
-  //     "productId": 83,
-  //     "name": "Aqua Blue Poly Georgette Saree With Blouse Piece",
-  //     "description": "\"Color : Aqua Blue  Fabric : Poly Georgette Blouse : Yes\"",
-  //     "blouseAttached": true,
-  //     "blouseFabric": "poly-georgette",
-  //     "sareeFabric": "poly-georgette",
-  //     "mrp": 1517,
-  //     "listingPrice": 1110,
-  //     "discount": 27,
-  //     "isActive": true,
-  //     "isAvailable": true,
-  //     "supplierId": 59,
-  //     "supplierName": "Misri Fashion",
-  //     "availableQty": 12,
-  //     "primaryImage": {
-  //         "jpegImages": {
-  //             "lImage": "https://d2mg89328eg065.cloudfront.net/optimized_media/160/l_1A2311H.jpeg",
-  //             "mImage": "https://d2mg89328eg065.cloudfront.net/optimized_media/160/m_1A2311H.jpeg",
-  //             "sImage": "https://d2mg89328eg065.cloudfront.net/optimized_media/160/s_1A2311H.jpeg",
-  //             "xsImage": "https://d2mg89328eg065.cloudfront.net/optimized_media/160/xs_1A2311H.jpeg"
-  //         },
-  //         "webpImages": {
-  //             "lImage": "https://d2mg89328eg065.cloudfront.net/optimized_media/160/l_1A2311H.webp",
-  //             "mImage": "https://d2mg89328eg065.cloudfront.net/optimized_media/160/m_1A2311H.webp",
-  //             "sImage": "https://d2mg89328eg065.cloudfront.net/optimized_media/160/s_1A2311H.webp",
-  //             "xsImage": "https://d2mg89328eg065.cloudfront.net/optimized_media/160/xs_1A2311H.webp"
-  //         }
-  //     }
-  // },
+
   {
     id: 249,
     slug: "saree-sunshine-yellow-brasso-a6229-buy-249",
@@ -526,6 +510,8 @@ export const collections = [
         xsImage: "https://d2mg89328eg065.cloudfront.net/optimized_media/435/xs_A3283H.webp",
       },
     },
+
+    rating: 4.2,
   },
   {
     id: 251,
@@ -559,5 +545,6 @@ export const collections = [
         xsImage: "https://d2mg89328eg065.cloudfront.net/optimized_media/437/xs_1A2510HN.webp",
       },
     },
+    rating: 4,
   },
 ]

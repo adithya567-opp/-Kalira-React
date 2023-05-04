@@ -13,6 +13,7 @@ export const ProductCard = (props: any) => {
       <h1>{item.blouseAttached}</h1>
 
       <span className="material">{item.sareeFabric}</span>
+      <span className="material rating">{item.rating} Stars</span>
       <div className="pricing">
         <span className="mrp">₹ {item.mrp}</span>
         <span className="original-price">₹ {item.listingPrice}</span>

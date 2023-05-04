@@ -4,15 +4,15 @@ import "./index.scss"
 import { RouterProvider } from "react-router-dom"
 
 import { routerConfig } from "router"
-import { FilterProvider, ProductsProvider } from "context"
+import { FilterProvider, ProductProvider } from "context"
 
 ReactDOM.render(
   <React.StrictMode>
-    <ProductsProvider>
+    <ProductProvider>
       <FilterProvider>
         <RouterProvider router={routerConfig}></RouterProvider>
       </FilterProvider>
-    </ProductsProvider>
+    </ProductProvider>
   </React.StrictMode>,
   document.getElementById("root"),
 )
