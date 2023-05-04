@@ -100,4 +100,10 @@ export const ProductCardContainer = styled.div`
     letter-spacing: 0.4px;
     color: #282c3f;
   }
+
+  @media (max-width: 34rem), (max-width: 54em) {
+    .btn-container {
+      flex-direction: column;
+    }
+  }
 `

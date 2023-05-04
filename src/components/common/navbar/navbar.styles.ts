@@ -41,7 +41,7 @@ export const NavbarContainer = styled.div`
   }
 
   @media (max-width: 59em) {
-    padding: 0 1.2rem;
+    padding: 0 2rem;
     .navigation {
       justify-content: space-between;
       width: 100%;
