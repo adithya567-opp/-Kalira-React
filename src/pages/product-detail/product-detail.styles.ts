@@ -145,7 +145,7 @@ export const ProductDetailsContainer = styled.div`
     gap: 2rem;
     @media screen and (max-width: 768px) {
       flex-direction: column;
-      padding: 0.8rem;
+      padding: 1.2rem;
     }
     .product-images {
       /* padding: 2rem; */
